@@ -1,0 +1,57 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  width: 100%;
+}
+
+.mainbg {
+  color: #e33826;
+  background-image: url(asset/2.jpg);
+  min-height: 100%;
+  width: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.itembox {
+  height: 150px;
+  background-color: black;
+  width: 15%;
+}
+.div2,
+.box1,
+.box3 {
+  background-color: #e33826;
+  color: white;
+  margin: 0;
+}
+.div1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.div1,
+.div3 {
+  background-color: white;
+  color: #e33826;
+  margin: 0;
+}
+p {
+  margin: 0;
+  padding: 20px;
+}
+.gridbar {
+  display: flex;
+}
+.gridbar > .box1 {
+  padding: 10px;
+}
+.box2 {
+  color: #e33826;
+}
